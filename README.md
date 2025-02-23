@@ -1,4 +1,7 @@
 # Git_detector
+Here's the corrected version with formatting fixes and the missing code block closures:
+
+```markdown
 # 🔍 Git Detector
 
 A Python-based tool designed to scan Git repositories for potential sensitive data leaks, such as API keys, passwords, private keys, and certificates. It analyzes the entire Git history, ensuring no hidden secrets escape detection.
@@ -21,7 +24,8 @@ A Python-based tool designed to scan Git repositories for potential sensitive da
 Before running the tool, install the necessary dependencies:
 
 ```bash
-pip install -r requirements.txt '*'
+pip install -r requirements.txt
+```
 
 ---
 
@@ -30,3 +34,5 @@ To avoid permission errors while scanning repositories, mark all Git repos as tr
 
 ```bash
 git config --global --add safe.directory '*'
+```
+```
