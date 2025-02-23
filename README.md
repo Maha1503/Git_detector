@@ -1,7 +1,3 @@
-# Git_detector
-Here's the corrected version with formatting fixes and the missing code block closures:
-
-```markdown
 # 🔍 Git Detector
 
 A Python-based tool designed to scan Git repositories for potential sensitive data leaks, such as API keys, passwords, private keys, and certificates. It analyzes the entire Git history, ensuring no hidden secrets escape detection.
@@ -30,9 +26,56 @@ pip install -r requirements.txt
 ---
 
 ## ⚡ Pre-execution Setup
-To avoid permission errors while scanning repositories, mark all Git repos as trusted:
+Before running the tool, ensure all Git repositories are marked as trusted to avoid permission errors:
 
 ```bash
 git config --global --add safe.directory '*'
 ```
+
+---
+
+## 💻 Usage
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <your-repo-link>
+   cd Git_detector
+   ```
+
+2. **Run the tool:**
+
+   ```bash
+   python git_detector.py
+   ```
+
+3. **For scanning a specific repository:**
+
+   ```bash
+   python git_detector.py /path/to/repository
+   ```
+
+---
+
+## 📝 Output Example
+
+The tool highlights sensitive data types along with their respective commit IDs for easy tracking and removal.
+
 ```
+[Password] Hardcoded password found
+Commit: cc8a4c6
+Key: my_secret_password
+
+[RSA Private Key] RSA Private Key found
+Commit: b20f5b8
+Key: -----BEGIN RSA PRIVATE KEY-----
+```
+
+---
+
+## ⚖️ Disclaimer
+This tool is intended for ethical use only. Always ensure you have proper authorization before scanning repositories.
+
+---
+
+🚀 **Happy Hunting!**
