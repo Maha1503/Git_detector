@@ -24,7 +24,8 @@ Before running the tool, install the necessary dependencies:
 pip install -r requirements.txt
 
 ---
-⚡ Pre-execution Setup
+
+## ⚡ Pre-execution Setup
 To avoid permission errors while scanning repositories, mark all Git repos as trusted:
 
 ```bash
