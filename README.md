@@ -21,7 +21,7 @@ A Python-based tool designed to scan Git repositories for potential sensitive da
 Before running the tool, install the necessary dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt '*'
 
 ---
 
