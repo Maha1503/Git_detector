@@ -78,4 +78,11 @@ This tool is intended for ethical use only. Always ensure you have proper author
 
 ---
 
+---
+
+## Contribution
+This repo is open for contribution, need to update regex patterns for different keys (APIs keys, passwords, usernames, certificate keys). If you'd like to improve **Git_detector**, check out the [Contributing Guidelines](CONTRIBUTING.md) and open a pull request.
+
+---
+
 🚀 **Happy Hunting!**
