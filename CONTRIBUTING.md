@@ -13,7 +13,7 @@ We welcome all kinds of contributions to make this tool even better. From bug fi
 
 2. **Clone your fork**  
    ```bash
-   git clone https://github.com/your-username/git_detector.git
+   git clone https://github.com/Maha1503/Git_detector.git
    ```
 
 3. **Create a new branch**  
