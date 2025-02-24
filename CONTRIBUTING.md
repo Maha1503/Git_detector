@@ -58,8 +58,3 @@ We welcome all kinds of contributions to make this tool even better. From bug fi
 
 ---
 
-## ✅ Code of Conduct
-
-By contributing, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md) and respect community guidelines.
-
-Happy coding! 🚀
