@@ -44,16 +44,10 @@ git config --global --add safe.directory '*'
    ```
 
 2. **Run the tool:**
+   Run the git_detector.exe file.
 
-   ```bash
-   python git_detector.py
-   ```
-
-3. **For scanning a specific repository:**
-
-   ```bash
-   python git_detector.py /path/to/repository
-   ```
+4. **For scanning a specific repository:**
+   Select the repo to be scanned and save scanned results. 
 
 ---
 
